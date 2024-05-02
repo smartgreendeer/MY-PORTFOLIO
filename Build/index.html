@@ -20,8 +20,8 @@
                 <div class="hidden sm:block ml-auto">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <a href="#" class="text-white hover:underline px-3 py-2 text-sm font-medium">Home</a>
-                        <a href="#" class="text-white hover:underline px-3 py-2 text-sm font-medium">Projects</a>
-                        <a href="#" class="text-white border border-primary px-4 rounded-none py-2 hover:bg-primary text-sm font-medium">Contact</a>
+                        <a href="#Projects" class="text-white hover:underline px-3 py-2 text-sm font-medium">Projects</a>
+                        <a href="#contact" class="text-white border border-primary px-4 rounded-none py-2 hover:bg-primary text-sm font-medium">Contact</a>
                     </div>
                 </div>
                 <div class="sm:hidden flex items ">
@@ -36,10 +36,10 @@
         <div id="mobile-menu" class="hidden sm:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="#" class="text-white hover:underline px-3 py-2 text-sm font-medium">Home</a>
-                <a href="#" class="text-white hover:underline px-3 py-2 text-sm font-medium">Projects</a>
-                <a href="#" class="text-white border border-primary px-4 rounded-none py-2 hover:bg-primary text-sm font-medium">Blog</a>
+                <a href="#Projects" class="text-white hover:underline px-3 py-2 text-sm font-medium">Projects</a>
+                <a href="#Quotes" class="text-white border border-primary px-4 rounded-none py-2 hover:bg-primary text-sm font-medium">Quotes</a>
                 <div class="px-2">
-                    <a href="#" class="text-white border border-primary block px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4">contact</a>
+                    <a href="#contact" class="text-white border border-primary block px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4">contact</a>
                 </div> 
             </div>
         </div>
@@ -51,7 +51,7 @@
         <br><br>
         <img src="../images/logo.jpg" alt="" class="h-30 w-30 rounded-none">
         <h1 class="text-5xl mt-3 font-bold lg:text-[80px] lg:leading-[94px]"><span id="typed"></span></h1>
-        <p class="mt-4 text-gray font-normal text-base w-full lg:w-3/6 ">I am from NRB,Kenya and have studying under the kenya curriculum just finished my highschool last year.<strong> undertook my studies in the following schools:</strong></p>
+        <p class="mt-4 text-gray font-normal text-base w-full lg:w-3/6 " id="about">I am from NRB,Kenya and have studying under the kenya curriculum just finished my highschool last year.<strong> undertook my studies in the following schools:</strong></p>
         <ol>
             <li>Nelson Mandela</li>
                 <ul>
@@ -64,7 +64,7 @@
         </ol>
         <div class="mt-14">
             <div class="mt-6 flex items-center gap-2">
-                <a href="#" class="btn-primary bg-primary text-white rounded-none py-3 px-6">Email Me</a>
+                <a href="mailto:Johnmuriithi7818@gmail.com" class="btn-primary bg-primary text-white rounded-none py-3 px-6">Email Me</a>
             </div>
 
         </div>
@@ -76,12 +76,12 @@
         <div class="block md-flex items-center justify-between">
             <div class="flex items-center">
                 <hr class="w-14 border-t-2 border-primary mr-4">
-                <h6 class="text-primary font-bold text-xl mr-4">Recent Work</h6>
+                <h6 class="text-primary font-bold text-xl mr-4" id="Projects">Recent Work</h6>
             </div>
             <h2 class="text-white  text-3xl lg:text-5xl font-bold mb-2 md:w-3/4 mt-4">Some of my projects.</h2>
         </div>
         <div class="mt-6 md:mt-0 ">
-            <a href="#" class="text-white border border-primary px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4">View All Projects</a>
+            <a href="https://github.com/smartgreendeer" class="text-white border border-primary px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4">View All Projects</a>
         </div>
     </div>
     <div class="flex flex-wrap mx-4">
@@ -119,7 +119,7 @@
     <div class="container max-w-xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <div class="flex items-center">
             <hr class="w-14 border-t-2 border-primary mr-4">
-            <h6 class="text-primary font-bold text-xl mr-4">Quotes</h6>
+            <h6 class="text-primary font-bold text-xl mr-4" id="Quotes">Quotes</h6>
         </div>
         <h2 class="text-white text-3xl lg:text-5xl font-bold mb-2 mx-auto">My to go to quotes</h2>
         <div class="owl-carousel">
@@ -178,7 +178,7 @@
             <span class="text-white text-[26px] font-bold">John Muriithi <span class="text-primary"></span></span>
             <div class="w-full links mt-10 md:mt-0 space-y-5 md:w-96 justify between md:space-y-0 md:flex">
                 <div class="info">
-                    <h6 class="text-xl text-white font-semibold mb-6">Contact Info</h6>
+                    <h6 class="text-xl text-white font-semibold mb-6" id="contact">Contact Info</h6>
                     <ul class="text-gray space-y-3">
                         <li class="hover:underline"><a href="+254701785779">Phone No</a></li>
                         <li class="hover:underline"><a href="mailto:Johnmuriithi7818@gmail.com">My email</a></li>                        
@@ -186,7 +186,9 @@
                 </div>
                 <div class="social">
                     <h6 class="text-xl text-white font-semibold mb-6">Socials</h6>
-                    <li class="hover:underline"><a href="https://www.instagram.com/nairobiantycoon/">Instagram</a></li>
+                    <ul>
+                        <li class="hover:underline"><a href="https://www.instagram.com/nairobiantycoon/">Instagram</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
